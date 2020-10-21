@@ -12,7 +12,6 @@ public  Human(String name,int maxRunDistance,int maxJumpHeigth) {
     this.active = true;
     }
 
-
     @Override
     public String run(int dist) {
         if (dist <= maxRunDistance) {

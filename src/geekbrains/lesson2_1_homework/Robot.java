@@ -13,7 +13,6 @@ public class Robot implements Competitors {
         this.active = true;
     }
 
-
     @Override
     public String run(int dist) {
         if (dist <= maxRunDistance) {

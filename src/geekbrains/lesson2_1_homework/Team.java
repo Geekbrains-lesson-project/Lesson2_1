@@ -11,6 +11,7 @@ public class Team {
         this.results = new StringBuilder();
     }
 
+
     public void setResult(String result) {
         results.append(result).append("\n");
     }

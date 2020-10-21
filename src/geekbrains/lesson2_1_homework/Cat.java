@@ -1,10 +1,10 @@
 package geekbrains.lesson2_1_homework;
 
 public class Cat implements Competitors {
-    public String name;
-    public int maxRunDistance;
-    public int maxJumpHeigth;
-    public boolean active;
+    private String name;
+    private int maxRunDistance;
+    private int maxJumpHeigth;
+    private boolean active;
 
     public Cat (String name,int maxRunDistance,int maxJumpHeigth) {  //
         this.name =name;
@@ -12,7 +12,6 @@ public class Cat implements Competitors {
         this.maxJumpHeigth = maxJumpHeigth;
         this.active = true;
     }
-
 
     @Override
     public String run(int dist) {
