@@ -7,6 +7,7 @@ public class Course {
         this.obstacles = obstacles;
     }
 
+
     public void doIt(Team team) {
         Competitors[] competitors = team.getCompetitors();
         if(competitors.length == 0) {
